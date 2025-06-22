@@ -15,3 +15,56 @@ h1 {
     font-size: 32px;
     text-align: center;
 }
+
+#image {
+    /* background-image: url("fiveoclock.png");
+    background-repeat: no-repeat; */
+    height: fit-content;
+    /* border: 1px solid black; */
+    
+    
+}
+
+#parrot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+    /* width: 50%; */
+}
+
+#localtime {    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    touch-action: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+
+}
+
+#realtime {
+    touch-action: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+
+}
+
+#copyright {
+    font-size: larger;
+}
+
+li {
+    display: inline;
+    font-size: larger;
+    margin: 15px;
+
+    
+}

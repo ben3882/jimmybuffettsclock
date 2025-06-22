@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        
+        <p id="copyright">&copy</p>
+    </footer>
+    <!-- <script src = "script-about.js"></script> -->
+    <script>
+
+        //copyright notice
+        let copyright = document.querySelector("#copyright");
+        if(new Date().getFullYear() == 2024){
+            copyright.innerHTML = "&copy " + "2024 by The Habanero Press";
+        } else {
+            copyright.innerHTML = "&copy " + "2024 - " + new Date().getFullYear() + " by The Habanero Press";
+        }
+
+    </script>
+</body>
+</html>

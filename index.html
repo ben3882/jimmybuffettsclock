@@ -1,8 +1,28 @@
 <!doctype html>
 
-<html>
+<html lang="en">
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SJEDS4BNC"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-3SJEDS4BNC');
+        </script>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="It's 5 o'clock Somewhere clock. This webpage tells you where in the world the hour is 5 o'clock.">
+        <meta name="keywords" content="Jimmy Buffett, Five O'clock Somewhere, 5 o'clock somewhere, clock">
+        <meta name="publisher" content="The Habanero Press">
+        <meta name="robots" content="index">
+        <meta name="author" content="Ben Brown">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.txt">
 
         <title>Jimmy Buffett's Clock</title>
 
@@ -12,10 +32,17 @@
     </head>
 
     <body>
-
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
         <h1>Jimmy Buffett's Clock</h1>
         <p id="time"></p>
         <p id="fiveoclock"></p>
+        <div id="realtime"><button id="localtime">Press for Local Time</button></div>
+        <div id="image"><img id="parrot" src="5oclock.png" alt="parrot"></div>
         <!-- Load external JavaScript -->
         <script src="scripts.js"></script>
         
